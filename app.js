@@ -18,13 +18,13 @@ import { countsAsaYes } from './utils.js';
     if (!wantsToContinue) return;
      
     const question1 = prompt('Question 1: Was pizza made before 1833');
-    if (question1 === 'y') correctAnswer++;
+    if (countsAsaYes(question1)) correctAnswer++;
 
     const question2 = prompt('Did the worlds first pizzeria open in 1905?');
-    if (question2 === 'y') correctAnswer++;
+    if (countsAsaYes(question2)) correctAnswer++;
    
     const question3 = prompt('Pizza became largest after WWII when troops took an immediate liking to it?')
-    if (question3 === 'y') correctAnswer++;
+    if (countsAsaYes(question3)) correctAnswer++;
 
 
     alert(`Okay ${firstName} ${lastName}, thank you for taking the quiz!`)

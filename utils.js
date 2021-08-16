@@ -1,3 +1,4 @@
+
 export function countsAsaYes(someString) {
-    return someString.CharAt(0).toLowerCase() === 'y';
+    return someString.charAt(0).toLowerCase() === 'y';
 }
