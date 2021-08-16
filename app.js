@@ -11,10 +11,9 @@ import { countsAsaYes } from './utils.js';
 
   button.addEventListener('click', () => {
     let correctAnswer = 0;
-
     const firstName = prompt('Welcome to the quiz! What is your first name?');
     const lastName = prompt('What is your last name?');
-    const wantsToContinue = prompt(`Hello ${firstName} ${lastName}! Are you ready to start the quiz?`)
+    const wantsToContinue = prompt(`Hello ${firstName} ${lastName}! Are you ready to start the quiz?`);
     if (!wantsToContinue) return;
      
     const question1 = prompt('Question 1: Was pizza made before 1833');
@@ -27,7 +26,6 @@ import { countsAsaYes } from './utils.js';
     if (countsAsaYes(question3)) correctAnswer++;
 
 
-    alert(`Okay ${firstName} ${lastName}, thank you for taking the quiz!`)
+    alert(`Okay ${firstName} ${lastName}, thank you for taking the quiz!`);
     results.textContent = `${firstName} ${lastName} you got ${correctAnswer} out of 3.`;
-
-  })
+  });
