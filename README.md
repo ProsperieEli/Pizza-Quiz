@@ -9,3 +9,18 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+## HTML
+1) Button
+    -Why? To launch quiz.
+2) Results Div
+    why? Need a place to give feedback.
+
+## State
+Keep track of how many questions the user got right
+inside function (local state):
+`let correctAnswers = 0;`
+
+## Events
+1) on button click
+    -Start the quiz
+
