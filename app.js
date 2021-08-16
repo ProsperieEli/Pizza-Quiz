@@ -1,6 +1,7 @@
 // import functions and grab DOM elements
 const button = document.getElementById('quiz');
 const display = document.getElementById('results');
+import { countsAsaYes } from './utils.js';
 // initialize state
 
 // set event listeners 
@@ -21,7 +22,7 @@ const display = document.getElementById('results');
 
     const question2 = prompt('Did the worlds first pizzeria open in 1905?');
     if (question2 === 'y') correctAnswer++;
-    
+   
     const question3 = prompt('Pizza became largest after WWII when troops took an immediate liking to it?')
     if (question3 === 'y') correctAnswer++;
 
