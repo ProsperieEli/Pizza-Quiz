@@ -105,3 +105,10 @@ footer {
  .copy-gutter-right{
      color: white;
  }
+ .joints{
+     font-style: italic;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ .main{
+     background-color:rgb(234, 233, 200);
+ }
